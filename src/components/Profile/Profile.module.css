@@ -1,0 +1,84 @@
+.container {
+  width: 450px;
+  height: 550px;
+  border: 1px solid	#DCDCDC;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  border-radius: 10px; 
+  
+}
+
+.profile {
+  display: grid;
+  height: 100%;
+  grid-template: 1fr 1fr / 1fr;
+  grid-template-areas: 
+    "description"
+    "stats";
+}
+
+.description {
+  display: grid;
+}
+
+.avatar {
+  margin-left: 28%;
+  margin-top: 8%;
+}
+
+.name {
+  text-align: center;
+  font-size: 250%;
+  font-family: sans-serif;
+  height: 0px;
+}
+
+.tag {
+  text-align: center;
+  font-size: 150%;
+  height: 0px;
+  color: #808080;
+}
+
+.location {
+  text-align: center;
+  font-size: 130%;
+  height: 30px;
+  color: #808080;
+}
+
+.stats {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  list-style-type: none;
+  margin: 0px 0px;
+  padding: 00px 0px 0px 0px;
+  border: 1px solid #DCDCDC;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.item {
+  display: grid;
+  border: 1px solid #DCDCDC;
+  background-color: #F8F8FF;
+  height: 100%;
+}
+
+.label {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  text-align: center;
+  padding: 20%;
+  font-size: 120%;
+  height: 0px;
+  color: #808080;
+}
+
+.quantity {
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 15%;
+}
